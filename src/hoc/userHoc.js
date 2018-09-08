@@ -1,0 +1,7 @@
+import React from 'react';
+const userHoc=(WrappedComponent,arg1)=>{
+    return(props)=>(
+        <WrappedComponent/>
+    )
+}
+export default userHoc;
